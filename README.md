@@ -34,7 +34,7 @@ Autonomous landing module for UAVs using monocular vision. The system detects a 
 - `notebooks/` – Experiments and prototyping.
 - `scripts/` – Training, evaluation, and demo scripts.
 
-Adjust these names to match your actual folders.
+folders.
 ---
 
 ## Getting Started
