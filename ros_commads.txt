@@ -1,0 +1,11 @@
+# Insert a urdf in gazeboo
+ros2 launch ros_gz_sim create.launch.py urdf:=path/to/robot.urdf
+
+# Import a world in gazebo(/usr/share/gz-sim/worlds/)
+ros2 launch ros_gz_sim gazebo.launch.py world:=path/to/world.sdf
+
+# Import a plugin in gazebo
+ros2 launch ros_gz_sim plugin.launch.py plugin:=path/to/plugin.sdf
+
+# Import a sensor in gazebo
+ros2 launch ros_gz_sim sensor.launch.py sensor:=path/to/sensor.sdf

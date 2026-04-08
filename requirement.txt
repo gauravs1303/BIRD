@@ -1,2 +1,18 @@
+# Vision pipeline
+opencv-python
+numpy
+scipy
 ultralytics
 torch
+tensorflow
+Pillow
+pyrealsense2
+PyYAML
+
+# ROS2 (install via rosdep, not pip)
+# rclpy
+# cv_bridge
+# geometry_msgs
+# sensor_msgs
+# std_msgs
+# mavros_msgs
